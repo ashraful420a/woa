@@ -1,0 +1,74 @@
+
+:root {
+    --Secondary--Dark: #cbcbce;
+    --dark: #141416;
+}
+body{
+
+}
+ .topheader{
+    background-color: var(--Secondary--Dark);
+}
+.header{
+    background-color: #141416;
+    color: white;
+}
+.shopping-icon img {
+    height: 21px;
+    width: 21px;
+}
+.navbar-nav li a{
+text-transform: uppercase;
+
+}
+
+
+.image-box{
+display: flex;
+justify-content: center;
+gap: 20px;
+
+
+}
+.image{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 100%;
+    width: 100%;
+}
+.logo{
+    max-width: 80%;
+}
+footer{
+    text-align: center;
+}
+
+footer h6{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 14px;
+}
+footer a img{
+    text-align: center;
+    height: 20px;
+}
+footer ul{
+    list-style: none;
+    text-align: left;
+}
+footer ul li {
+    font-size: 12px;
+    padding-top: 9px;
+    padding-bottom: 0px;
+}
+footer ul li a {
+    display: inline-flex;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    color: #141416;
+    font-size: 12px;
+    border-bottom: 1px solid #b3b3b3;
+    width: 100%;
+    padding: 10px 0;
+}
